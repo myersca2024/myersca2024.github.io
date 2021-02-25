@@ -1,0 +1,114 @@
+<!DOCTYPE html>
+<html>
+<title>Caleb Myers Portfolio - Five Days in Space</title>
+<meta charset="UTF-8">
+<meta name="viewport" content="width=device-width, initial-scale=1">
+<link rel="stylesheet" href="https://www.w3schools.com/w3css/4/w3.css">
+<link rel="stylesheet" href="https://fonts.googleapis.com/css?family=Raleway">
+<link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/4.7.0/css/font-awesome.min.css">
+<style>
+body,h1,h2,h3,h4,h5,h6 {font-family: "Raleway", sans-serif}
+</style>
+<body class="w3-light-grey w3-content" style="max-width:1600px">
+
+<!-- Sidebar/menu -->
+<nav class="w3-sidebar w3-collapse w3-white w3-animate-left" style="z-index:3;width:300px;" id="mySidebar"><br>
+  <div class="w3-container">
+    <a href="#" onclick="w3_close()" class="w3-hide-large w3-right w3-jumbo w3-padding w3-hover-grey" title="close menu">
+      <i class="fa fa-remove"></i>
+    </a>
+    <img src="img/me.jpg" style="width:60%;" class="w3-round"><br><br>
+    <h4><b>CALEB MYERS</b></h4>
+  </div>
+  <div class="w3-bar-block">
+    <a href="index.html#portfolio" onclick="w3_close()" class="w3-bar-item w3-button w3-padding w3-text-teal"><i class="fa fa-th-large fa-fw w3-margin-right"></i>PORTFOLIO</a> 
+    <a href="index.html#about" onclick="w3_close()" class="w3-bar-item w3-button w3-padding"><i class="fa fa-user fa-fw w3-margin-right"></i>ABOUT</a> 
+    <a href="index.html#resume" onclick="w3_close()" class="w3-bar-item w3-button w3-padding"><i class="fa fa-envelope fa-fw w3-margin-right"></i>RESUME</a>
+	<a href="https://github.com/myersca2024" onclick="w3_close()" class="w3-bar-item w3-button w3-padding"><i class="fa fa-github fa-fw w3-margin-right"></i>GITHUB</a>
+	<a href="https://www.linkedin.com/in/caleb-myers-008945207/" onclick="w3_close()" class="w3-bar-item w3-button w3-padding"><i class="fa fa-linkedin fa-fw w3-margin-right"></i>LINKEDIN</a>
+  </div>
+</nav>
+
+<!-- Overlay effect when opening sidebar on small screens -->
+<div class="w3-overlay w3-hide-large w3-animate-opacity" onclick="w3_close()" style="cursor:pointer" title="close side menu" id="myOverlay"></div>
+
+<!-- !PAGE CONTENT! -->
+<div class="w3-main" style="margin-left:300px">
+	<!-- Header -->
+	<header id="echolost">
+		<!-- <a href="#"><img src="/w3images/avatar_g2.jpg" style="width:65px;" class="w3-circle w3-right w3-margin w3-hide-large w3-hover-opacity"></a> -->
+		<span class="w3-button w3-hide-large w3-xxlarge w3-hover-text-grey" onclick="w3_open()"><i class="fa fa-bars"></i></span>
+		<div class="w3-container">
+			<h1><b>Echo Lost</b></h1>
+			<h4>A puzzle platforming game featuring Koko, a flightless bat that uses echolocation to find their way around!</h4>
+		</div>
+		<div class="w3-section w3-bottombar"></div>
+	</header>
+	<div class="w3-container w3-row-padding" style="margin-bottom:32px">
+		<!-- Information -->
+		<div class="w3-half w3-container w3-margin-bottom">
+			<div>
+				<h2><u>Description</u></h2>
+				<h5>
+				<i>Echo Lost</i> puts the player in the role of Koko, a flightless bat trying to find their way home. The player
+				utilizes Koko's echolocation to find their way around, as well as solving puzzles by flipping levers in order to
+				find an exit.
+				</h5>
+			</div>
+			<br>
+			<div>
+				<h2><u>Details</u></h2>
+				<h5>
+					<i>Engine:</i> Unity (2D)
+				</h5>
+				<h5>
+					<i>Programming Language:</i> C#
+				</h5>
+				<h5>
+					<i>Role:</i> Programmer, Designer, Composer
+				</h5>
+				<h5>
+					<a href="https://cmnu.itch.io/echo-lost"><b>Available to play at itch.io</b></a>
+				</h5>
+			</div>
+			<br>
+			<div>
+				<h2><u>Contributions</u></h2>
+				<ul>
+					<li><h5>Came up with initial concept for echolocation game</h5></li>
+					<li><h5>Implemented echolocation mechanic</h5></li>
+					<li><h5>Integrated character sprites and mapped character animations to movement</h5></li>
+					<li><h5>Composed title screen music</h5></li>
+				</ul>
+			</div>
+			<br>
+			<div>
+				<h2><u>The Process</u></h2>
+				<h5>
+					A few friends and I got together to make a game for Global Game Jam 2021 over a 72-hour period where the theme was
+					"Lost and Found." I've had an idea about an echolocation game for a while and pithced it to
+					my friends, and afterward, we designed simple puzzle mechanics and went ahead to implement
+					them in Unity. As most of us were programmers, we split up the non-programming work amongst ourselves, so
+					I used the composing software Bosca Ceoil to compose the music for the game. On the final day of development,
+					a trailer was made for the game and presented to the Boston Global Game Jam site.
+				</h5>
+			</div>
+		</div>
+		<!-- Images/Videos -->
+		<div class="w3-half w3-container w3-margin-bottom">
+			<video width="560" height="315" controls>
+				<source src="files/Final Trailer.mov" type="video/mp4">
+				Your browser does not support the video tag.
+			</video>
+			<br>
+			<br>
+			<img src="img/echolost/echolost.jpg" width="90%">
+			<br>
+			<br>
+			<img src="img/echolost/kokointhedark.jpg" width="90%">
+			<br>
+			<br>
+			<img src="img/echolost/echolight.jpg" width="90%">
+		</div>
+	</div>
+</div>

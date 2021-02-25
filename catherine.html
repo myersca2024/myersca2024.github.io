@@ -1,0 +1,110 @@
+<!DOCTYPE html>
+<html>
+<title>Caleb Myers Portfolio - Five Days in Space</title>
+<meta charset="UTF-8">
+<meta name="viewport" content="width=device-width, initial-scale=1">
+<link rel="stylesheet" href="https://www.w3schools.com/w3css/4/w3.css">
+<link rel="stylesheet" href="https://fonts.googleapis.com/css?family=Raleway">
+<link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/4.7.0/css/font-awesome.min.css">
+<style>
+body,h1,h2,h3,h4,h5,h6 {font-family: "Raleway", sans-serif}
+</style>
+<body class="w3-light-grey w3-content" style="max-width:1600px">
+
+<!-- Sidebar/menu -->
+<nav class="w3-sidebar w3-collapse w3-white w3-animate-left" style="z-index:3;width:300px;" id="mySidebar"><br>
+  <div class="w3-container">
+    <a href="#" onclick="w3_close()" class="w3-hide-large w3-right w3-jumbo w3-padding w3-hover-grey" title="close menu">
+      <i class="fa fa-remove"></i>
+    </a>
+    <img src="img/me.jpg" style="width:60%;" class="w3-round"><br><br>
+    <h4><b>CALEB MYERS</b></h4>
+  </div>
+  <div class="w3-bar-block">
+    <a href="index.html#portfolio" onclick="w3_close()" class="w3-bar-item w3-button w3-padding w3-text-teal"><i class="fa fa-th-large fa-fw w3-margin-right"></i>PORTFOLIO</a> 
+    <a href="index.html#about" onclick="w3_close()" class="w3-bar-item w3-button w3-padding"><i class="fa fa-user fa-fw w3-margin-right"></i>ABOUT</a> 
+    <a href="index.html#resume" onclick="w3_close()" class="w3-bar-item w3-button w3-padding"><i class="fa fa-envelope fa-fw w3-margin-right"></i>RESUME</a>
+	<a href="https://github.com/myersca2024" onclick="w3_close()" class="w3-bar-item w3-button w3-padding"><i class="fa fa-github fa-fw w3-margin-right"></i>GITHUB</a>
+	<a href="https://www.linkedin.com/in/caleb-myers-008945207/" onclick="w3_close()" class="w3-bar-item w3-button w3-padding"><i class="fa fa-linkedin fa-fw w3-margin-right"></i>LINKEDIN</a>
+  </div>
+</nav>
+
+<!-- Overlay effect when opening sidebar on small screens -->
+<div class="w3-overlay w3-hide-large w3-animate-opacity" onclick="w3_close()" style="cursor:pointer" title="close side menu" id="myOverlay"></div>
+
+<!-- !PAGE CONTENT! -->
+<div class="w3-main" style="margin-left:300px">
+	<!-- Header -->
+	<header id="catherinequest">
+		<!-- <a href="#"><img src="/w3images/avatar_g2.jpg" style="width:65px;" class="w3-circle w3-right w3-margin w3-hide-large w3-hover-opacity"></a> -->
+		<span class="w3-button w3-hide-large w3-xxlarge w3-hover-text-grey" onclick="w3_open()"><i class="fa fa-bars"></i></span>
+		<div class="w3-container">
+			<h1><b>Catherine Quest</b></h1>
+			<h4>A minigame collection featuring Catherine the Great as she tries to form a coup against her husband.</h4>
+		</div>
+		<div class="w3-section w3-bottombar"></div>
+	</header>
+	<div class="w3-container w3-row-padding" style="margin-bottom:32px">
+		<!-- Information -->
+		<div class="w3-half w3-container w3-margin-bottom">
+			<div>
+				<h2><u>Description</u></h2>
+				<h5>
+					<i>Catherine Quest</i> puts the player in 1762 in Moscow, Russia. They take the role of Catherine the Great,
+					the eventual Tsarina of Russia, and her husband, Peter III, has just been coronated as Tsar of Russia. The
+					player, as Catherine, must perform various tasks in order to build up a coup and overthrow Peter III and
+					take control of Russia!
+				</h5>
+			</div>
+			<br>
+			<div>
+				<h2><u>Details</u></h2>
+				<h5>
+					<i>Engine:</i> Unity (3D)
+				</h5>
+				<h5>
+					<i>Programming Language:</i> C#
+				</h5>
+				<h5>
+					<i>Role:</i> Programmer, Designer
+				</h5>
+				<h5>
+					<a href="https://magicghostmonstr.itch.io/catherinequest"><b>Available to play at itch.io</b></a>
+				</h5>
+			</div>
+			<br>
+			<div>
+				<h2><u>Contributions</u></h2>
+				<ul>
+					<li><h5>Designed and implemented speech minigame</h5></li>
+					<li><h5>Implemented item and inventory system</h5></li>
+					<li><h5>Integrated UI assets</h5></li>
+				</ul>
+			</div>
+			<br>
+			<div>
+				<h2><u>The Process</u></h2>
+				<h5>
+					<i>Catherine Quest</i>'s production started July 2020 and ended mid-August 2020 for a Game Programming class
+					final project. Early in the semester, my peers and I brainstormed and submitted a design document that we would
+					slowly implement into a game over the course of the semester as we learned new things in class. Using that
+					knowledge I obtained in class, I implemented the final minigame of the game, a speech minigame, and the inventory
+					and item system. After production finished, it was submitted to itch.io.
+				</h5>
+			</div>
+		</div>
+		<!-- Images/Videos -->
+		<div id="content" class="w3-half w3-container w3-margin-bottom">
+			<iframe width="560" height="315" src="https://www.youtube.com/embed/1jOAYFh26gA" frameborder="0" allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture" allowfullscreen></iframe>
+			<br>
+			<br>
+			<img src="img/catherine/titlescreen.jpg" width="90%">
+			<br>
+			<br>
+			<img src="img/catherine/stefano.jpg" width="90%">
+			<br>
+			<br>
+			<img src="img/catherine/speechminigame.jpg" width="90%">
+		</div>
+	</div>
+</div>
