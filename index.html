@@ -23,7 +23,6 @@ body,h1,h2,h3,h4,h5,h6 {font-family: "Raleway", sans-serif}
   <div class="w3-bar-block">
     <a href="#portfolio" onclick="w3_close()" class="w3-bar-item w3-button w3-padding w3-text-teal"><i class="fa fa-th-large fa-fw w3-margin-right"></i>PORTFOLIO</a> 
     <a href="#about" onclick="w3_close()" class="w3-bar-item w3-button w3-padding"><i class="fa fa-user fa-fw w3-margin-right"></i>MY STORY</a> 
-    <a href="#resume" onclick="w3_close()" class="w3-bar-item w3-button w3-padding"><i class="fa fa-file-text fa-fw w3-margin-right"></i>RESUME</a>
 	<a href="#contact" onclick="w3_close()" class="w3-bar-item w3-button w3-padding"><i class="fa fa-envelope fa-fw w3-margin-right"></i>CONTACT ME</a>
 	<a href="https://github.com/myersca2024" onclick="w3_close()" class="w3-bar-item w3-button w3-padding"><i class="fa fa-github fa-fw w3-margin-right"></i>GITHUB</a>
 	<a href="https://www.linkedin.com/in/caleb-myers-008945207/" onclick="w3_close()" class="w3-bar-item w3-button w3-padding"><i class="fa fa-linkedin fa-fw w3-margin-right"></i>LINKEDIN</a>
@@ -44,30 +43,52 @@ body,h1,h2,h3,h4,h5,h6 {font-family: "Raleway", sans-serif}
     <h1><b>Portfolio</b></h1>
     </div>
   </header>
-  
-  <!-- First Photo Grid-->
-  <div class="w3-row-padding">
-    <div class="w3-third w3-container w3-margin-bottom">
-      <a href="numop.html"><img src="img/numeraloperation.png" alt="Numeral Operation" style="width:100%" class="w3-hover-opacity"></a>
+
+    <!-- <a href="#"><img src="/w3images/avatar_g2.jpg" style="width:65px;" class="w3-circle w3-right w3-margin w3-hide-large w3-hover-opacity"></a> -->
+    <span class="w3-button w3-hide-large w3-xxlarge w3-hover-text-grey" onclick="w3_open()"><i class="fa fa-bars"></i></span>
+    <div class="w3-container">
+    <h2><b>Personal Projects</b></h2>
+    </div>
+
+	<div class="w3-row-padding">
+	<div class="w3-third w3-container w3-margin-bottom">
+      <img src="img/echolost-full.png" alt="Echo Lost" style="width:100%" class="w3-hover-opacity"></a>
       <div class="w3-container w3-white">
-        <h4><b>Numeral Operation</b> (Game Jam)</h4>
+        <h4><b>Echo Lost - The Full Game</b> (Work in Progress)</h4>
 		<hr>
-		<h5>Unity 2D, C# | Programmer, Designer, Artist</h5>
-		<hr>
-        <p>A puzzle game where adding and subtracting is the name of the game.</p>
+		<h5>Unity 2D, C# | Programmer, Designer</h5>
       </div>
     </div>
-    <div class="w3-third w3-container w3-margin-bottom">
-      <a href="echolost.html"><img src="img/echolost.png" alt="Echo Lost" style="width:100%" class="w3-hover-opacity"></a>
+	<div class="w3-third w3-container">
+      <a href="astar.html"><img src="img/astar.png" alt="A* Pathfinding" style="width:100%" class="w3-hover-opacity"></a>
       <div class="w3-container w3-white">
-        <h4><b>Echo Lost</b> (Game Jam)</h4>
+        <h4><b>A* Pathfinding Package</b></h4>
 		<hr>
-		<h5>Unity 2D, C# | Programmer, Designer, Composer</h5>
+		<h5>Unity 2D, C# | Programmer</h5>
 		<hr>
-        <p>A puzzle platforming game featuring Koko, a flightless bat that uses echolocation to find their way around.</p>
+        <p>A package for implementing pathfinding AI in any Unity 2D project.</p>
       </div>
     </div>
-    <div class="w3-third w3-container">
+  </div>
+
+	    <!-- <a href="#"><img src="/w3images/avatar_g2.jpg" style="width:65px;" class="w3-circle w3-right w3-margin w3-hide-large w3-hover-opacity"></a> -->
+    <span class="w3-button w3-hide-large w3-xxlarge w3-hover-text-grey" onclick="w3_open()"><i class="fa fa-bars"></i></span>
+    <div class="w3-container">
+    <h2><b>Academic Projects</b></h2>
+    </div>
+
+	<div class="w3-row-padding">
+	<div class="w3-third w3-container">
+      <a href="filesystem.html"><img src="img/filesys.png" alt="" style="width:100%" class="w3-hover-opacity"></a>
+      <div class="w3-container w3-white">
+        <h4><b>EXT File System</b></h4>
+		<hr>
+		<h5>C | Programmer</h5>
+		<hr>
+        <p>An EXT File System built in a Linux VM using C.</p>
+      </div>
+    </div>
+	<div class="w3-third w3-container">
       <a href="catherine.html"><img src="img/catherinequest.png" alt="Catherine Quest" style="width:100%" class="w3-hover-opacity"></a>
       <div class="w3-container w3-white">
         <h4><b>Catherine Quest</b></h4>
@@ -77,10 +98,19 @@ body,h1,h2,h3,h4,h5,h6 {font-family: "Raleway", sans-serif}
         <p>A minigame collection featuring Catherine the Great as she tries to form a coup against her husband.</p>
       </div>
     </div>
+	<div class="w3-third w3-container">
+      <a href="animator.html"><img src="img/animator.png" alt="Java Animator" style="width:100%" class="w3-hover-opacity"></a>
+      <div class="w3-container w3-white">
+        <h4><b>Java Animator</b></h4>
+		<hr>
+		<h5>Java | Programmer</h5>
+		<hr>
+        <p>A program that animates a text file of keyframes using MVC design.</p>
+      </div>
+    </div>
   </div>
-  
-  <!-- Second Photo Grid-->
-  <div class="w3-row-padding">
+
+	<div class="w3-row-padding">
     <div class="w3-third w3-container w3-margin-bottom">
       <a href="fivedays.html"><img src="img/fivedaysinspace.png" alt="Five Days in Space" style="width:100%" class="w3-hover-opacity"></a>
       <div class="w3-container w3-white">
@@ -93,6 +123,68 @@ body,h1,h2,h3,h4,h5,h6 {font-family: "Raleway", sans-serif}
     </div>
   </div>
 
+	    <!-- <a href="#"><img src="/w3images/avatar_g2.jpg" style="width:65px;" class="w3-circle w3-right w3-margin w3-hide-large w3-hover-opacity"></a> -->
+    <span class="w3-button w3-hide-large w3-xxlarge w3-hover-text-grey" onclick="w3_open()"><i class="fa fa-bars"></i></span>
+    <div class="w3-container">
+    <h2><b>Game Jams</b></h2>
+    </div>
+
+	<div class="w3-row-padding">
+    <div class="w3-third w3-container w3-margin-bottom">
+      <a href="toxicblob.html"><img src="img/toxicblob.png" alt="Toxic Blob" style="width:100%" class="w3-hover-opacity"></a>
+      <div class="w3-container w3-white">
+        <h4><b>Toxic Blob</b></h4>
+		<hr>
+		<h5>Unity 2D, C# | Programmer</h5>
+		<hr>
+        <p>A platformer where the player is a toxic blob that dissolves the platforms they stand on.</p>
+      </div>
+    </div>
+    <div class="w3-third w3-container w3-margin-bottom">
+      <a href="musicmania.html"><img src="img/musicmania.png" alt="Music Mania" style="width:100%" class="w3-hover-opacity"></a>
+      <div class="w3-container w3-white">
+        <h4><b>Music Mania</b></h4>
+		<hr>
+		<h5>Unity 2D, C# | Programmer, Designer</h5>
+		<hr>
+        <p>A rhythm game bullet-hell that combines two of the most focus-intensive game genres into one game.</p>
+      </div>
+    </div>
+	<div class="w3-third w3-container w3-margin-bottom">
+      <a href="noisecomplaint.html"><img src="img/noisecomplaint.png" alt="Noise Complaint" style="width:100%" class="w3-hover-opacity"></a>
+      <div class="w3-container w3-white">
+        <h4><b>Noise Complaint</b></h4>
+		<hr>
+		<h5>Unity 3D, C# | Programmer, Designer</h5>
+		<hr>
+        <p>A chaotic game where the player's goal is to ruin a loud party happening next door.</p>
+      </div>
+    </div>
+  </div>
+
+	<div class="w3-row-padding">
+    <div class="w3-third w3-container w3-margin-bottom">
+      <a href="numop.html"><img src="img/numeraloperation.png" alt="Numeral Operation" style="width:100%" class="w3-hover-opacity"></a>
+      <div class="w3-container w3-white">
+        <h4><b>Numeral Operation</b></h4>
+		<hr>
+		<h5>Unity 2D, C# | Programmer, Designer, Artist</h5>
+		<hr>
+        <p>A puzzle game where adding and subtracting is the name of the game.</p>
+      </div>
+    </div>
+    <div class="w3-third w3-container w3-margin-bottom">
+      <a href="echolost.html"><img src="img/echolost.png" alt="Echo Lost" style="width:100%" class="w3-hover-opacity"></a>
+      <div class="w3-container w3-white">
+        <h4><b>Echo Lost</b></h4>
+		<hr>
+		<h5>Unity 2D, C# | Programmer, Designer, Composer</h5>
+		<hr>
+        <p>A puzzle platforming game featuring Koko, a flightless bat that uses echolocation to find their way around.</p>
+      </div>
+    </div>
+  </div>
+
 	<br>
 	<br>
 
@@ -101,7 +193,7 @@ body,h1,h2,h3,h4,h5,h6 {font-family: "Raleway", sans-serif}
 	<div class="w3-twothird w3-container w3-margin-bottom">
 		<h1><b>My Story</b></h1>
 		<h5>
-		Hello and welcome to my portfolio. I'm a 2nd year honors student at Northeastern University, enrolled in the Khoury College of Computer Science, studying computer science and game development. My main discipline is programming with basic experience in art and music, and I'm currently seeking internship opportunities in the games industry from May 2021 through December 2021. </h5>
+		Hello and welcome to my portfolio. I'm a 3rd year honors student at Northeastern University, enrolled in the Khoury College of Computer Science, studying computer science and game development. My main discipline is programming with basic experience in art and music, and I'm currently seeking internship opportunities in the games industry from May 2021 through December 2021. </h5>
 		
 		<h5>Since starting my first project, I've participated in a few Game Jams and plan on entering many more, both for fun and for practice. While most of my projects so far were done in Unity, I'm interested in and actively learning more avenues of game development. For example, in my spare time, using <i>C</i> and <i>gbdevkit</i> to make Game Boy games.
 		</h5>
@@ -128,14 +220,6 @@ body,h1,h2,h3,h4,h5,h6 {font-family: "Raleway", sans-serif}
 		<img src="img/me.jpg" style="width:80%;" class="w3-round">
 	</div>
   </div>
-
-  <!-- Resume -->
-  <div id="resume" class="w3-container w3-padding-large" style="margin-bottom:32px">
-	  <h1><b>Resume</b></h1>
-	  <iframe src="files/calebmyersresume.pdf" width="100%" height="500px"></iframe>
-  </div>
-
-  <br>
 	<br>
 
   <!-- Contact Me -->

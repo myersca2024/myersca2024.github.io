@@ -1,0 +1,113 @@
+<!DOCTYPE html>
+<html>
+<title>Caleb Myers Portfolio - Five Days in Space</title>
+<meta charset="UTF-8">
+<meta name="viewport" content="width=device-width, initial-scale=1">
+<link rel="stylesheet" href="https://www.w3schools.com/w3css/4/w3.css">
+<link rel="stylesheet" href="https://fonts.googleapis.com/css?family=Raleway">
+<link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/4.7.0/css/font-awesome.min.css">
+<style>
+body,h1,h2,h3,h4,h5,h6 {font-family: "Raleway", sans-serif}
+</style>
+<body class="w3-light-grey w3-content" style="max-width:1600px">
+
+<!-- Sidebar/menu -->
+<nav class="w3-sidebar w3-collapse w3-white w3-animate-left" style="z-index:3;width:300px;" id="mySidebar"><br>
+  <div class="w3-container">
+    <a href="#" onclick="w3_close()" class="w3-hide-large w3-right w3-jumbo w3-padding w3-hover-grey" title="close menu">
+      <i class="fa fa-remove"></i>
+    </a>
+    <img src="img/me.jpg" style="width:60%;" class="w3-round"><br><br>
+    <h4><b>CALEB MYERS</b></h4>
+  </div>
+  <div class="w3-bar-block">
+    <a href="index.html#portfolio" onclick="w3_close()" class="w3-bar-item w3-button w3-padding w3-text-teal"><i class="fa fa-th-large fa-fw w3-margin-right"></i>PORTFOLIO</a> 
+    <a href="index.html#about" onclick="w3_close()" class="w3-bar-item w3-button w3-padding"><i class="fa fa-user fa-fw w3-margin-right"></i>MY STORY</a> 
+	<a href="index.html#contact" onclick="w3_close()" class="w3-bar-item w3-button w3-padding"><i class="fa fa-envelope fa-fw w3-margin-right"></i>CONTACT ME</a>
+	<a href="https://github.com/myersca2024" onclick="w3_close()" class="w3-bar-item w3-button w3-padding"><i class="fa fa-github fa-fw w3-margin-right"></i>GITHUB</a>
+	<a href="https://www.linkedin.com/in/caleb-myers-008945207/" onclick="w3_close()" class="w3-bar-item w3-button w3-padding"><i class="fa fa-linkedin fa-fw w3-margin-right"></i>LINKEDIN</a>
+  </div>
+</nav>
+
+<!-- Overlay effect when opening sidebar on small screens -->
+<div class="w3-overlay w3-hide-large w3-animate-opacity" onclick="w3_close()" style="cursor:pointer" title="close side menu" id="myOverlay"></div>
+
+<!-- !PAGE CONTENT! -->
+<div class="w3-main" style="margin-left:300px">
+	<!-- Header -->
+	<header id="numop">
+		<!-- <a href="#"><img src="/w3images/avatar_g2.jpg" style="width:65px;" class="w3-circle w3-right w3-margin w3-hide-large w3-hover-opacity"></a> -->
+		<span class="w3-button w3-hide-large w3-xxlarge w3-hover-text-grey" onclick="w3_open()"><i class="fa fa-bars"></i></span>
+		<div class="w3-container">
+			<h1><b>Music Mania</b></h1>
+			<h4>A rhythm game bullet-hell that combines two of the most focus-intensive game genres into one game.</h4>
+		</div>
+		<div class="w3-section w3-bottombar"></div>
+	</header>
+	<div class="w3-container w3-row-padding" style="margin-bottom:32px">
+		<!-- Information -->
+		<div class="w3-half w3-container w3-margin-bottom">
+			<div>
+				<h2><u>Description</u></h2>
+				<h5>
+					<i>Music Mania</i> was developed for the GMTK Game Jam 2021. The theme for the jam was "Stronger Together," and I and my team
+					thought it would be a fun opportunity to combine two of the most focus-intensive game genres, being bullet-hells and rhythm games,
+					into one extremely difficult game - the strongest game, if you will. On one side of the screen, the player is attempting to dodge
+					various bullets coming after the player, and on the other side, is playing notes to the beat of the music that can destroy enemies
+					on the bullet-hell side. The player needs to survive until the end of the song to win.
+				</h5>
+			</div>
+			<br>
+			<div>
+				<h2><u>Details</u></h2>
+				<h5>
+					<i>Engine:</i> Unity (2D)
+				</h5>
+				<h5>
+					<i>Programming Language:</i> C#
+				</h5>
+				<h5>
+					<i>Role:</i> Programmer, Designer
+				</h5>
+				<h5>
+					<a href="https://cmnu.itch.io/music-mania"><b>Available to download at itch.io</b></a>
+				</h5>
+			</div>
+			<br>
+			<div>
+				<h2><u>Contributions</u></h2>
+				<ul>
+					<li><h5>Developed charting tool for rhythm games to convert text files into note objects</h5></li>
+					<li><h5>Created judgment bar functionality</h5></li>
+					<li><h5>Integrated art assets</h5></li>
+					<li><h5>Implemented UI functionality</h5></li>
+				</ul>
+			</div>
+			<br>
+			<div>
+				<h2><u>The Process</u></h2>
+				<h5>
+					Development for the game took place over a 48 hour period. A few friends wanted to help out but could
+					only help for a few hours on either the first or second day, so I ended up implementing most of the
+					functionality apart from the bullet-hell.
+					<p>
+					For the rhythm game side of things, I had started by making sure the keys lined up to the judgment bar,
+					and made spawnable note objects. I then developed the tool for taking text files and converting them into
+					timed note spawns which took the longest amount of time. I developed a basic UI and song selection, and then finally, 
+					with the help of a few friends, we charted the two songs for the game and submitted just a few minutes prior to the
+					48-hour deadline.
+				</h5>
+			</div>
+		</div>
+		<!-- Images/Videos -->
+		<div class="w3-half w3-container w3-margin-bottom">
+			<img src="img/musicmania/sc1.png" width="90%">
+			<br>
+			<br>
+			<img src="img/musicmania/sc2.png" width="90%">
+			<br>
+			<br>
+			<img src="img/musicmania/sc3.png" width="90%">
+		</div>
+	</div>
+</div>

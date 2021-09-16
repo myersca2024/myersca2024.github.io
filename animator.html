@@ -1,0 +1,95 @@
+<!DOCTYPE html>
+<html>
+<title>Caleb Myers Portfolio - Five Days in Space</title>
+<meta charset="UTF-8">
+<meta name="viewport" content="width=device-width, initial-scale=1">
+<link rel="stylesheet" href="https://www.w3schools.com/w3css/4/w3.css">
+<link rel="stylesheet" href="https://fonts.googleapis.com/css?family=Raleway">
+<link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/4.7.0/css/font-awesome.min.css">
+<style>
+body,h1,h2,h3,h4,h5,h6 {font-family: "Raleway", sans-serif}
+</style>
+<body class="w3-light-grey w3-content" style="max-width:1600px">
+
+<!-- Sidebar/menu -->
+<nav class="w3-sidebar w3-collapse w3-white w3-animate-left" style="z-index:3;width:300px;" id="mySidebar"><br>
+  <div class="w3-container">
+    <a href="#" onclick="w3_close()" class="w3-hide-large w3-right w3-jumbo w3-padding w3-hover-grey" title="close menu">
+      <i class="fa fa-remove"></i>
+    </a>
+    <img src="img/me.jpg" style="width:60%;" class="w3-round"><br><br>
+    <h4><b>CALEB MYERS</b></h4>
+  </div>
+  <div class="w3-bar-block">
+    <a href="index.html#portfolio" onclick="w3_close()" class="w3-bar-item w3-button w3-padding w3-text-teal"><i class="fa fa-th-large fa-fw w3-margin-right"></i>PORTFOLIO</a> 
+    <a href="index.html#about" onclick="w3_close()" class="w3-bar-item w3-button w3-padding"><i class="fa fa-user fa-fw w3-margin-right"></i>MY STORY</a> 
+	<a href="index.html#contact" onclick="w3_close()" class="w3-bar-item w3-button w3-padding"><i class="fa fa-envelope fa-fw w3-margin-right"></i>CONTACT ME</a>
+	<a href="https://github.com/myersca2024" onclick="w3_close()" class="w3-bar-item w3-button w3-padding"><i class="fa fa-github fa-fw w3-margin-right"></i>GITHUB</a>
+	<a href="https://www.linkedin.com/in/caleb-myers-008945207/" onclick="w3_close()" class="w3-bar-item w3-button w3-padding"><i class="fa fa-linkedin fa-fw w3-margin-right"></i>LINKEDIN</a>
+  </div>
+</nav>
+
+<!-- Overlay effect when opening sidebar on small screens -->
+<div class="w3-overlay w3-hide-large w3-animate-opacity" onclick="w3_close()" style="cursor:pointer" title="close side menu" id="myOverlay"></div>
+
+<!-- !PAGE CONTENT! -->
+<div class="w3-main" style="margin-left:300px">
+	<!-- Header -->
+	<header id="numop">
+		<!-- <a href="#"><img src="/w3images/avatar_g2.jpg" style="width:65px;" class="w3-circle w3-right w3-margin w3-hide-large w3-hover-opacity"></a> -->
+		<span class="w3-button w3-hide-large w3-xxlarge w3-hover-text-grey" onclick="w3_open()"><i class="fa fa-bars"></i></span>
+		<div class="w3-container">
+			<h1><b>Java Animator</b></h1>
+			<h4>A program that animates a text file of keyframes using MVC design.</h4>
+		</div>
+		<div class="w3-section w3-bottombar"></div>
+	</header>
+	<div class="w3-container w3-row-padding" style="margin-bottom:32px">
+		<!-- Information -->
+		<div class="w3-half w3-container w3-margin-bottom">
+			<div>
+				<h2><u>Description</u></h2>
+				<h5>
+					This program was developed to read a file of keyframe instructions, interpret them, and format them to either
+					output a text file of the different shapes and instructions each shape had in the animation, a .svg file that
+					would open a browser and play the animation, or an editor made with JPanel where the user could play the animation,
+					add and animate additional shapes, or delete existing shapes or animation instructions.
+				</h5>
+			</div>
+			<br>
+			<div>
+				<h2><u>Details</u></h2>
+				<h5>
+					<i>Programming Language:</i> Java
+				</h5>
+				<h5>
+					<i>Role:</i> Programmer
+				</h5>
+				<h5>
+					<b>Source code available upon request.</b>
+				</h5>
+			</div>
+			<br>
+			<div>
+				<h2><u>Contributions</u></h2>
+				<ul>
+					<li><h5>Collaborated to design methods and functionality of the MVC implementation</h5></li>
+					<li><h5>Developed objects to correspond to keyframes, shapes, motions, and positions</h5></li>
+					<li><h5>Created tool to adapt object shapes into JPanel shapes for displaying in the editor</h5></li>
+				</ul>
+			</div>
+			<br>
+			<div>
+				<h2><u>The Process</u></h2>
+				<h5>
+					This project was done in collaboration with another student over the course of a few weeks between
+					three different assignments. The first assignment was about developing a solid design for reading
+					keyframes and turning them into recorded objects. My partner and I had difficulties at first creating
+					a good design for this, but once we had one that the professor and TAs gave the thumbs-up, the rest
+					was much easier. We were then able to develop a way of exporting the recorded keyframes into text files and
+					svg files, and finally we were able to process them into an animation editor we built using JPanel.
+				</h5>
+			</div>
+		</div>
+	</div>
+</div>
